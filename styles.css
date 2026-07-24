@@ -139,20 +139,18 @@ body::before {
 @keyframes zoomIn {
     from {
         opacity: 0;
-        background-size: 110%;
     }
     to {
         opacity: 1;
-        background-size: 100%;
     }
 }
 
 @keyframes slowZoom {
     0% {
-        background-size: 100%;
+        transform: scale(1);
     }
     100% {
-        background-size: 105%;
+        transform: scale(1.05);
     }
 }
 
