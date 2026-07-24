@@ -136,13 +136,6 @@ body::before {
     overflow: hidden;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        background-size: 100% auto;
-        background-position: top center;
-    }
-}
-
 @keyframes zoomIn {
     from {
         opacity: 0;
