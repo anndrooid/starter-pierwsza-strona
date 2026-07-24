@@ -364,7 +364,6 @@ body::before {
 
 .feature-item:hover {
     background: transparent;
-    border-color: transparent;
     transform: translateY(-6px);
     box-shadow: none;
 }
