@@ -459,6 +459,9 @@ body::before {
 @media (max-width: 480px) {
     .headline {
         font-size: 1.8rem;
+        white-space: normal;
+        word-break: keep-all;
+        width: 100%;
     }
 
     .subheadline {
