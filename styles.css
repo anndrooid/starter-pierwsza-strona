@@ -465,6 +465,14 @@ body::before {
     }
 
     .subheadline {
+        animation: fadeInUp 0.8s ease-out 0.3s backwards !important;
+    }
+
+    .cta {
+        animation: fadeInUp 0.8s ease-out 0.3s backwards !important;
+    }
+
+    .subheadline {
         font-size: 0.8rem;
     }
 
