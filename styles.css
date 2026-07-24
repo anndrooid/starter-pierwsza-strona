@@ -424,6 +424,16 @@ body::before {
 
     .hero {
         padding: 2rem;
+        background-size: cover !important;
+    }
+
+    @keyframes slowZoom {
+        0% {
+            background-size: cover;
+        }
+        100% {
+            background-size: cover;
+        }
     }
 
     .headline {
