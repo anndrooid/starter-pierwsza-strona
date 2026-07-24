@@ -368,11 +368,11 @@ body::before {
 }
 
 .feature-item:hover h3 {
-    transform: scale(1.25);
+    transform: scale(1.12);
 }
 
 .feature-item:hover p {
-    transform: scale(1.25);
+    transform: scale(1.12);
 }
 
 .feature-item:hover::before {
