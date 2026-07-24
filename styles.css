@@ -127,7 +127,7 @@ body::before {
     justify-content: space-between;
     padding: 0;
     background-image: url('bg.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -147,10 +147,10 @@ body::before {
 
 @keyframes slowZoom {
     0% {
-        transform: scale(1);
+        background-size: 100%;
     }
     100% {
-        transform: scale(1.05);
+        background-size: 105%;
     }
 }
 
