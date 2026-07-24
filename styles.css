@@ -130,9 +130,17 @@ body::before {
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
+    background-repeat: no-repeat;
     position: relative;
     animation: zoomIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards, slowZoom 10s ease-out 1.5s forwards;
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-size: 100% auto;
+        background-position: top center;
+    }
 }
 
 @keyframes zoomIn {
