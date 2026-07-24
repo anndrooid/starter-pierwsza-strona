@@ -365,6 +365,7 @@ body::before {
 .feature-item:hover {
     background: transparent;
     box-shadow: none;
+    transform: scale(1.08);
 }
 
 .feature-item:hover::before {
